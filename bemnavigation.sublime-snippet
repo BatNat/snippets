@@ -1,0 +1,36 @@
+<snippet>
+  <content><![CDATA[
+<!--navigation start-->
+<nav class="nav">
+  <ul class="nav__list">
+      <li class="nav__item nav__item-active">
+          <a href="${1:#}" class="nav__link">
+              <i class="nav__link-ico fa ${2:#}"></i>
+              <span class="nav__link-text">${3:#}</span>
+          </a>
+      </li>
+      <li class="nav__item">
+          <a href="${4:#}" class="nav__link">
+              <i class="nav__link-ico fa ${5:#}"></i>
+              <span class="nav__link-text">${6:#}</span>
+          </a>
+      </li>
+      <li class="nav__item">
+          <a href="${7:#}" class="nav__link">
+              <i class="nav__link-ico fa ${8:#}"></i>
+              <span class="nav__link-text">${9:#}</span>
+          </a>
+      </li>
+      <li class="nav__item">
+          <a href="${10:#}" class="nav__link">
+              <i class="nav__link-ico fa ${11:#}"></i>
+              <span class="nav__link-text">${12:#}</span>
+          </a>
+      </li>
+  </ul></nav><!--navigation end-->
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>navigation</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
